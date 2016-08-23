@@ -2,3 +2,49 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	width: 855;
+    font-size: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    min-width: 285px;
+}
+
+header {
+    overflow: auto;
+    margin: auto;
+    min-width: 855px;
+}
+header.left {
+    max-width: 285px;
+}
+header.right {
+    max-width: 570px;
+}
+
+h3 {
+    float: right;    
+    min-width: 570px;
+    font-size: larger;
+    margin-top: 8px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+hr {
+    clear: both;
+}
+
+.comment-input p {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 15px
+}
