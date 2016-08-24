@@ -6,7 +6,9 @@
 body {
 	width: 855;
     font-size: 100%;
+    font-family: sans-serif;
     margin: auto;
+    background: ivory;
 }
 
 header, main, footer {
@@ -55,21 +57,55 @@ hr {
     margin-top: 30px;
     font-weight: bold;
     font-size: 1.4em;
-    margin: 15px;
+    margin-top: 15px;
     float: left;
     width: 285px;
 }
 
+.comment-input button {
+    font-weight: bold;
+    padding: px;
+    border-radius: 5px;
+    color: azure;
+    background: #517d8b;
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
 main {
     overflow: auto;
+    margin-top: 50px;
 }
 
 input {
     margin-right: 3px;
+    padding:10px 7px 7px 10px;
+    margin-top: 5px;
+    
 }
 
 .comments {
     float: right;
     width: 570px;
+    margin-top: 15px;    
+}
+
+.comments p {
+    margin: 14px;
+    font-size: larger;
+    padding: 8px;
     
+}
+
+.comments p:nth-child(even) {
+    background-color: lavender;
+}
+
+.comments p:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+button {
+    color: green;
 }
